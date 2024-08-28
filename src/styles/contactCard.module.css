@@ -1,0 +1,125 @@
+.contact__card {
+    display: flex;
+    background-color: var(--white);
+    border: 2px solid var(--primary);
+    border-radius: 15px;
+    overflow: hidden;
+    width: 700px;
+    height: 400px;
+}
+
+.contact__form, .contact__info {
+    padding: 30px;
+}
+
+.contact__form {
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact__form > h3 {
+    color: var(--primary);
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.contact__form > p {
+    margin-bottom: 25px;
+}
+
+.contact__form-message {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact__form-message > input, .contact__form-message > textarea {
+    border: none;
+    border-bottom: solid 2px var(--primary);
+    border-radius: 1px;
+}
+.contact__form-message > textarea {
+    resize: vertical;
+    height: 30px;
+    min-height: 30px;
+    max-height: 70px;
+}
+
+.contact__form-message > input::placeholder, .contact__form-message > textarea::placeholder {
+    color: var(--black);
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    padding-bottom: 2px;
+}
+
+.contact__form-message > input:focus, .contact__form-message > textarea:focus {
+    outline: 2px solid var(--primary-light);
+    border-radius: 1px;
+}
+
+.contact__form-message > button {
+    margin-top: 10px;
+    padding: 8px;
+    width: 300px;
+    border-radius: 12px;
+    background-color: var(--primary-light);
+    border: 2px solid var(--primary);
+    color: var(--white);
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+.contact__form-message > button:hover, .contact__form-message > button:focus {
+    transform: scale(0.98);
+    transition: 500ms;
+    cursor: pointer;
+}
+
+.contact__info {
+    background-color: var(--secondary);
+    color: var(--black);
+    height: 200px;
+    margin-top: 70px;
+    margin-right: -150px;
+    z-index: 2;
+    border: solid var(--primary) 2px;
+    min-width: 230px;
+}
+
+.contact__info > h4 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.contact__info-text {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0; 
+    align-items: center;
+}
+
+.contact__info-text > a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 14px;
+}
+
+.contact__info-text > a:hover, .contact__info-text > a:focus {
+    font-size: 13.5px;
+    transition: 500ms;
+}
+
+.contact__info-text > img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact-green {
+    background-color: var(--primary-light);
+    width: 250px;
+}

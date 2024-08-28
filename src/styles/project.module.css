@@ -1,0 +1,35 @@
+.project__link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: var(--black);
+    background-color: var(--white);
+    border: var(--primary) solid 2px;
+    padding: 40px 15px 30px;
+    max-width: 300px;
+    border-radius: 20px;
+}
+
+.project__link > img {
+    width: 80%;
+    height: 150px;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: top;
+    border: var(--black) solid 2px;
+}
+
+.project__link-text {
+    text-align: center;
+}
+.project__link-text > h5 {
+    margin-bottom: 0;
+    color: var(--primary);
+}
+
+.project__link:hover, .project__link:focus {
+    transform: scale(0.98);
+    transition: 800ms;
+}

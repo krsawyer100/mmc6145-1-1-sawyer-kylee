@@ -1,0 +1,40 @@
+:root {
+  --white: #fffffa;
+  --primary: #434b26;
+  --primary-light: #606c38;
+  --secondary: #d8c3a5;
+  --black: #0b0a09;
+}
+
+body {
+  margin: 0;
+  background-color: var(--white);
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  height: 100vh;
+  color: var(--black);
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 32px;
+}
+
+h3 {
+  font-weight: 800;
+  font-size: 26px;
+}
+
+h4 {
+  font-weight: 700;
+  font-weight: 20px;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 14px;
+}

@@ -1,0 +1,128 @@
+/* Hero/About section */
+.about {
+    background-color: var(--primary-light);
+    color: var(--white);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px 100px;
+    gap: 60px;
+    --mask:
+        radial-gradient(34.99px at 50% calc(100% - 48px),#000 99%,#0000 101%) calc(50% - 60px) 0/120px 100%,
+        radial-gradient(34.99px at 50% calc(100% + 18px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px 100% repeat-x;
+    -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+
+.about__container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.about__img {
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+}
+
+.about__btn {
+    background-color: var(--secondary);
+    border: var(--primary) 2px solid;
+    padding: 15px 0;
+    width: 200px;
+    border-radius: 15px;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.about__btn:hover, .about__btn:focus {
+    transform: scale(0.98);
+    color: var(--black);
+    transition: 500ms;
+}
+
+/* Skills section */
+.skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    gap: 60px;
+}
+
+.skills-img {
+    width: 400px;
+}
+
+.skills__text > h3 {
+    color: var(--primary);
+}
+
+/* Projects Section */
+.projects {
+    background-color: var(--secondary);
+    padding: 80px 20px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    --mask:
+        radial-gradient(34.99px at 50% 48px,#000 99%,#0000 101%) calc(50% - 60px) 0/120px 51% repeat-x,
+        radial-gradient(34.99px at 50% -18px,#0000 99%,#000 101%) 50% 30px/120px calc(51% - 30px) repeat-x,
+        radial-gradient(34.99px at 50% calc(100% - 48px),#000 99%,#0000 101%) calc(50% - 60px) 100%/120px 51% repeat-x,
+        radial-gradient(34.99px at 50% calc(100% + 18px),#0000 99%,#000 101%) 50% calc(100% - 30px)/120px calc(51% - 30px) repeat-x;
+    -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+
+.projects > h3 {
+    color: var(--primary);
+    margin-bottom: 30px;
+}
+
+.projects__container {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-btn {
+    background-color: var(--primary-light);
+    border: var(--primary) 2px solid;
+    padding: 15px 0;
+    width: 200px;
+    border-radius: 15px;
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px; 
+}
+
+.project-btn:hover, .project-btn:focus {
+    transform: scale(0.98);
+    transition: 500ms;
+}
+
+/* Contact Section */
+.contact {
+ display: flex;
+ justify-content: center;
+ padding: 100px 20px;
+}

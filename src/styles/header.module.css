@@ -1,0 +1,43 @@
+.header {
+    background-color: var(--white);
+    border-bottom: var(--primary) solid 2px;
+    width: 100%;
+    top: 0;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.nav__socials {
+    display: flex;
+    gap: 15px;
+    width: 75px;
+}
+
+.socials__icon > img {
+    width: 35px;
+    height: 35px;
+}
+
+.socials__icon:hover, .socials__icon:focus {
+    transform: scale(0.97);
+    transition: 0.3s;
+}
+
+.nav__logo {
+    font-family: "Lilita One", sans-serif;
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 24px;
+    text-align: center;
+}
+
+.nav__logo:hover, .nav__logo:focus {
+    color: var(--primary-light);
+    transform: scale(0.98);
+    transition: 0.3s;
+}
