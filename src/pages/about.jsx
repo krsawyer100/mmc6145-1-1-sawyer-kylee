@@ -34,17 +34,17 @@ export default function About() {
                         <div className={styles.contact}>
                             <h3>Contact/Socials</h3>
                             <div className={styles.contactsContainer}>
-                                <a href="mailto:kyleereneesawyer@gmail.com" className={styles.contactInfo}>
+                                <a href="mailto:kyleesdesigns100@gmail.com" className={styles.contactInfo}>
                                     <img src={emailIcon} alt="Kylee's Email" />
-                                    <h5>kyleereneesawyer@gmail.com</h5>
+                                    <h5>kyleesdesigns100@gmail.com</h5>
                                 </a>
                                 <a href='https://www.linkedin.com/in/kylee-sawyer/' target='_BLANK' className={styles.contactInfo}>
                                     <img src={linkedinIcon} alt="Kylee's LinkedIn" />
-                                    <h5>https://www.linkedin.com/in/kylee-sawyer/</h5>
+                                    <h5>LinkedIn: Kylee Sawyer</h5>
                                 </a>
                                 <a href='github.com/krsawyer100' target='_BLANK' className={styles.contactInfo}>
                                     <img src={githubIcon} alt="Kylee's Github" />
-                                    <h5>https://github.com/krsawyer100</h5>
+                                    <h5>Github: krsawyer100</h5>
                                 </a>
                             </div>
                         </div>

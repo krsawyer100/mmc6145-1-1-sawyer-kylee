@@ -29,6 +29,12 @@
     margin-bottom: 25px;
 }
 
+.confirmation {
+    color: var(--primary-light);
+    font-size: 16px;
+    font-weight: 500;
+}
+
 .contact__form-message {
     display: flex;
     flex-direction: column;
