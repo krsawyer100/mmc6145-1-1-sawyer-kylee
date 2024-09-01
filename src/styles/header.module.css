@@ -30,6 +30,10 @@
     transition: 0.3s;
 }
 
+.nav__logo-img {
+    display: none;
+}
+
 .nav__logo {
     font-family: "Lilita One", sans-serif;
     text-decoration: none;
@@ -236,6 +240,14 @@
     .nav__links-container.open {
         top: 100px;
     }
+
+    .nav__links-container {
+        height: 190px;
+    }
+    
+    .nav-link {
+        font-size: 17px;
+    }
     
     @keyframes slideIn {
         0% { top: -400px; }
@@ -266,7 +278,15 @@
     .nav__links-container.open {
         top: 91px;
     }
+
+    .nav__links-container {
+        height: 175px;
+    }
     
+    .nav-link {
+        font-size: 16px;
+    }
+
     @keyframes slideIn {
         0% { top: -400px; }
         100% { top: 91px; }  

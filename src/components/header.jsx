@@ -23,6 +23,7 @@ export default function Header() {
                         </a>
                     </div>
                     <Link to="/" className={styles.navLogo}>
+                        <img src="" alt="" className={styles.navLogoImg}/>
                         <h1 className={styles.navLogoText}>Kylee's Designs</h1>
                     </Link>
                     <button className={`${styles.navBtn} ${menuOpen ? styles.open : ''}`} onClick={toggleMenu} aria-label="Nav Menu" aria-expanded={menuOpen}>

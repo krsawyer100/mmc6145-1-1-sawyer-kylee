@@ -131,3 +131,89 @@
     background-color: var(--primary-light);
     width: 250px;
 }
+
+@media screen and (max-width: 750px) {
+    .contact__card {
+        flex-direction: column;
+        overflow: hidden;
+        width: 80%;
+        height: auto;
+    }
+    
+    .contact__form, .contact__info {
+        padding: 30px;
+    }
+    
+    .contact__form {
+        padding-right: 30px;
+    }
+    
+    /* .confirmation {
+        color: var(--primary-light);
+        font-size: 16px;
+        font-weight: 500;
+        margin-top: -5px;
+        margin-bottom: 5px;
+    } */
+    
+    .contact__info {
+        height: 200px;
+        margin-top: 30px;
+        margin-right: 0;
+        width: 90%;
+        border: none;
+        border-top: 2px var(--primary) solid ;
+    }
+    
+    .contact-green {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .contact__card {
+        width: 90%;
+    }
+    
+    .contact__form, .contact__info {
+        padding: 25px;
+    }
+    
+    .confirmation {
+        font-size: 15px;
+    }
+    
+    .contact__form-message > button {
+        width: 200px;
+    }
+
+    .contact__info {
+        height: 175px;
+        width: 89%;
+        border: none;
+        border-top: 2px var(--primary) solid ;
+        margin-left: -5px;
+    }
+    
+    .contact__info > h4 {
+        margin-bottom: 25px;
+    }
+    
+    .contact__info-text {
+        gap: 7px;
+        margin: 15px 0; 
+    }
+    
+    .contact__info-text > a {
+        font-size: 13px;
+    }
+    
+    .contact__info-text > a:hover, .contact__info-text > a:focus {
+        font-size: 12.5px;
+    }
+    
+    .contact__info-text > img {
+        width: 25px;
+        height: 25px;
+    }
+}
