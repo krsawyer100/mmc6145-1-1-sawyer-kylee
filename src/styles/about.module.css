@@ -14,6 +14,8 @@
   width: 300px;
   height: 350px;
   object-fit: cover;
+  border-radius: 20px;
+  border: var(--primary) solid 2px;
 }
 
 .introduction__text-container {
@@ -142,4 +144,128 @@
 .software-icons > img {
   width: 60px;
   height: 60px;
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    margin: 50px 30px;
+  }
+  
+  .introduction {
+    gap: 40px;
+    margin-bottom: 30px;
+  }
+
+  .resume {
+    column-gap: 10px;
+  }
+  
+  .column-one, .column-two {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .main {
+    margin: 50px 30px 40px;
+  }
+
+  .introduction {
+    flex-direction: column;
+  }
+  
+  .introduction-img {
+    width: 200px;
+    height: 200px;
+    object-position: 0 20%;
+    border-radius: 50%;
+  }
+  
+  .introduction__text-container {
+    align-self: center;
+    margin-top: -30px;
+  }
+
+  .introduction__text-container > h2 {
+    text-align: center;
+  } 
+  
+  .introduction__text-container > h4 {
+    text-align: center;
+  }
+  .resume {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .column-one, .column-two {
+    max-width: 350px;
+  }
+  
+  .contact > h3, .education > h3, .experience > h3, .volunteering > h3, .skills > h3, .software > h3 {
+    text-align: center;
+  }
+
+  .contact-info > img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .software {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -10px;
+  }
+
+  .software-icons {
+    justify-content: center;
+  }
+} 
+
+@media screen and (max-width: 390px) {
+  .introduction {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  .column-one, .column-two {
+    align-items: center;
+  }
+  
+  .introduction-img {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .introduction__text-container > h2 {
+    margin-top: -15px;
+  } 
+  
+  .introduction__text-container > h4 {
+    margin-bottom: 25px;
+  }
+  
+  .introduction-text {
+    background-color: var(--secondary);
+    padding: 10px 15px;
+    margin-bottom: -10px;
+  }
+
+  .volunteering-container {
+    justify-content: center;
+  }
+  
+  .software-icons {
+    width: 250px;
+    gap: 8px;
+  }
+  
+  .software-icons > img {
+    width: 50px;
+    height: 50px;
+  }
 }
