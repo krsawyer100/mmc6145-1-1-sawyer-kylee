@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import emailjs from '@emailjs/browser'
 import styles from '../styles/contactCard.module.css'
-import githubIcon from '../images/github-icon.png'
-import emailIcon from '../images/email-icon.png'
-import linkedinIcon from '../images/linkedin-icon.png'
+import githubIconPrimary from '../images/icons/github-icon-primary.png'
+import emailIconPrimary from '../images/icons/email-icon-primary.png'
+import linkedinIconPrimary from '../images/icons/linkedin-icon-primary.png'
 
 export default function ContactCard() {
     const [isSubmitting, setIsSubmitting] = useState(false)
@@ -55,15 +55,15 @@ export default function ContactCard() {
             <div className={styles.contactInfo}>
                 <h4>Contact Info</h4>
                 <div className={styles.contactInfoText}>
-                    <img src={emailIcon} alt="" />
+                    <img src={emailIconPrimary} alt="" />
                     <a href='mailto:kyleesdesigns100@gmail.com'>kyleesdesigns100@gmail.com</a>
                 </div>
                 <div className={styles.contactInfoText}>
-                    <img src={linkedinIcon} alt="Github Icon" />
+                    <img src={linkedinIconPrimary} alt="Github Icon" />
                     <a href='https://www.linkedin.com/in/kylee-sawyer/' target='_BLANK'>LinkedIn</a>
                 </div>
                 <div className={styles.contactInfoText}>
-                    <img src={githubIcon} alt="Github Icon" />
+                    <img src={githubIconPrimary} alt="Github Icon" />
                     <a href='https://github.com/krsawyer100' target='_BLANK'>Github</a>
                 </div>
             </div>

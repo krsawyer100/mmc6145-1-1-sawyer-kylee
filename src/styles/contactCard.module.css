@@ -102,6 +102,7 @@
     text-align: center;
     margin-top: 0;
     margin-bottom: 30px;
+    color: var(--primary);
 }
 
 .contact__info-text {
@@ -147,14 +148,6 @@
     .contact__form {
         padding-right: 30px;
     }
-    
-    /* .confirmation {
-        color: var(--primary-light);
-        font-size: 16px;
-        font-weight: 500;
-        margin-top: -5px;
-        margin-bottom: 5px;
-    } */
     
     .contact__info {
         height: 200px;

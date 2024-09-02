@@ -1,7 +1,7 @@
 import styles from '../styles/footer.module.css'
 import { Link } from "react-router-dom"
-import githubIcon from '../images/github-icon.png'
-import linkedinIcon from '../images/linkedin-icon.png'
+import githubIconWhite from '../images/icons/github-icon-white.png'
+import linkedinIconWhite from '../images/icons/linkedin-icon-white.png'
 
 export default function Footer() {
     return (
@@ -15,10 +15,10 @@ export default function Footer() {
             </nav>
             <div className={styles.footerSocials}>
                 <a href="https://github.com/krsawyer100" target='_BLANK' className={styles.socialIcons}>
-                    <img src={githubIcon} alt="Github Icon" className={styles.socialIconsImg} />
+                    <img src={githubIconWhite} alt="Github Icon" className={styles.socialIconsImg} />
                 </a>
                 <a href="https://www.linkedin.com/in/kylee-sawyer/" target='_BLANK' className={styles.socialIcons}>
-                    <img src={linkedinIcon} alt="Linkedin Icon" className={styles.socialIconsImg} />
+                    <img src={linkedinIconWhite} alt="Linkedin Icon" className={styles.socialIconsImg} />
                 </a>
             </div>
             <div className={styles.footerCopyright}>

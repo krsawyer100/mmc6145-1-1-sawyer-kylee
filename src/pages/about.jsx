@@ -2,9 +2,9 @@ import styles from '../styles/about.module.css'
 import Header from '../components/header.jsx'
 import Footer from '../components/footer.jsx'
 import aboutImg from '../images/about-img.jpg'
-import githubIcon from '../images/github-icon.png'
-import emailIcon from '../images/email-icon.png'
-import linkedinIcon from '../images/linkedin-icon.png'
+import githubIconPrimaryLight from '../images/icons/github-icon-primary-light.png'
+import emailIconPrimaryLight from '../images/icons/email-icon-primary-light.png'
+import linkedinIconPrimaryLight from '../images/icons/linkedin-icon-primary-light.png'
 import illustratorIcon from '../images/illustrator-icon.png'
 import photoshopIcon from '../images/photoshop-icon.png'
 import lightroomIcon from '../images/lightroom-icon.png'
@@ -35,15 +35,15 @@ export default function About() {
                             <h3>Contact/Socials</h3>
                             <div className={styles.contactsContainer}>
                                 <a href="mailto:kyleesdesigns100@gmail.com" className={styles.contactInfo}>
-                                    <img src={emailIcon} alt="Kylee's Email" />
+                                    <img src={emailIconPrimaryLight} alt="Kylee's Email" />
                                     <h5>kyleesdesigns100@gmail.com</h5>
                                 </a>
                                 <a href='https://www.linkedin.com/in/kylee-sawyer/' target='_BLANK' className={styles.contactInfo}>
-                                    <img src={linkedinIcon} alt="Kylee's LinkedIn" />
+                                    <img src={linkedinIconPrimaryLight} alt="Kylee's LinkedIn" />
                                     <h5>LinkedIn: Kylee Sawyer</h5>
                                 </a>
                                 <a href='github.com/krsawyer100' target='_BLANK' className={styles.contactInfo}>
-                                    <img src={githubIcon} alt="Kylee's Github" />
+                                    <img src={githubIconPrimaryLight} alt="Kylee's Github" />
                                     <h5>Github: krsawyer100</h5>
                                 </a>
                             </div>

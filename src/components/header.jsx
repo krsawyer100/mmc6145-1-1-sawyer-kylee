@@ -1,7 +1,7 @@
 import styles from '../styles/header.module.css'
 import { Link } from "react-router-dom"
-import githubIcon from '../images/github-icon.png'
-import linkedinIcon from '../images/linkedin-icon.png'
+import githubIconPrimary from '../images/icons/github-icon-primary.png'
+import linkedinIconPrimary from '../images/icons/linkedin-icon-primary.png'
 import { useState } from "react"
 
 export default function Header() {
@@ -16,14 +16,13 @@ export default function Header() {
                 <nav className={styles.headerNav}>
                     <div className={styles.navSocials}>
                         <a href="https://github.com/krsawyer100" target='_BLANK' className={styles.socialsIcon}>
-                            <img src={githubIcon} alt="Github Icon" className={styles.socialsIconImg} />
+                            <img src={githubIconPrimary} alt="Github Icon" className={styles.socialsIconGithub} />
                         </a>
                         <a href="https://www.linkedin.com/in/kylee-sawyer/" target='_BLANK' className={styles.socialsIcon}>
-                            <img src={linkedinIcon} alt="Linkedin Icon" className={styles.socialsIconImg} />
+                            <img src={linkedinIconPrimary} alt="Linkedin Icon" className={styles.socialsIconLinkedin} />
                         </a>
                     </div>
                     <Link to="/" className={styles.navLogo}>
-                        <img src="" alt="" className={styles.navLogoImg}/>
                         <h1 className={styles.navLogoText}>Kylee's Designs</h1>
                     </Link>
                     <button className={`${styles.navBtn} ${menuOpen ? styles.open : ''}`} onClick={toggleMenu} aria-label="Nav Menu" aria-expanded={menuOpen}>

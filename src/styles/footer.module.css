@@ -47,6 +47,11 @@
     height: 35px;
 }
 
+.socialIcons:hover, .socialIcons:focus {
+    transform: scale(0.98);
+    transition: 500ms;
+}
+
 .footer__copyright {
     color: var(--white);
     margin-top: 10px;

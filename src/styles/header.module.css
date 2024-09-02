@@ -25,13 +25,16 @@
     height: 35px;
 }
 
-.socials__icon:hover, .socials__icon:focus {
+.socials__icon-github:hover, .socials__icon-github:focus {
+    content: url("/src/images/icons/github-icon-primary-light.png");
     transform: scale(0.97);
     transition: 0.3s;
 }
 
-.nav__logo-img {
-    display: none;
+.socials__icon-linkedin:hover, .socials__icon-linkedin:focus {
+    content: url("/src/images/icons/linkedin-icon-primary-light.png");
+    transform: scale(0.97);
+    transition: 0.3s;
 }
 
 .nav__logo {
