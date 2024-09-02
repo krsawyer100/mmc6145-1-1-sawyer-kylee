@@ -18,7 +18,7 @@ export default function Home() {
           <div className={styles.aboutContainer}>
             <div className={styles.aboutText}>
               <h2>Hello!</h2>
-              <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione praesentium fuga consequuntur voluptas repellat veritatis sequi rerum ea earum esse, laborum harum reiciendis accusantium cumque ipsum, pariatur iusto, nisi ab.</h4> 
+              <h4>I am a web design graduate student attending the University of Florida. I currently work as a freelance UX Researcher for Edgeview Creative.</h4> 
             </div>
             <Link to="/about" className={styles.aboutBtn}>More About Me</Link>
           </div>
@@ -44,13 +44,13 @@ export default function Home() {
               href="https://brain-boost-sawyer-6ebf05ed6f61.herokuapp.com/"
               imgSrc={brainBoostImg}
               title="Brain Boost"
-              description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, aperiam. Tempora repudiandae sint reiciendis, consectetur cumque et? Porro veritatis praesentium accusantium et."
+              description="The Brain Boost Study Application is a website to help enhance a users study efficiency with study sets and flashcards."
             />
             <Project 
               href="https://krsawyer100.github.io/com6338-10-10-sawyer-spets/" 
               imgSrc={furryFriendsImg}
               title="Furry Friends"
-              description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex, aperiam. Tempora repudiandae sint reiciendis, consectetur cumque et? Porro veritatis praesentium accusantium et."
+              description="Furry Friends is a website that shows dogs and cats that are avaiable for adoption in your area."
             />
           </div>
           <Link to="/portfolio" className={styles.projectBtn}>View Full Portfolio</Link>
