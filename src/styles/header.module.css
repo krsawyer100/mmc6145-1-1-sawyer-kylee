@@ -6,6 +6,9 @@
     position: relative;
     z-index: 10;
 }
+.hidden {
+    display: none;
+}
 
 .header__nav {
     display: flex;

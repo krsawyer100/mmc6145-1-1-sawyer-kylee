@@ -1,7 +1,7 @@
 import styles from '../styles/footer.module.css'
 import { Link } from "react-router-dom"
-import githubIconWhite from '../images/icons/github-icon-white.png'
-import linkedinIconWhite from '../images/icons/linkedin-icon-white.png'
+import githubIconWhite from '/images/icons/github-icon-white.png'
+import linkedinIconWhite from '/images/icons/linkedin-icon-white.png'
 
 export default function Footer() {
     return (

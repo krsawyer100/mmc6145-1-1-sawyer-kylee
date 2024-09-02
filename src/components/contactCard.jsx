@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import emailjs from '@emailjs/browser'
 import styles from '../styles/contactCard.module.css'
-import githubIconPrimary from '../images/icons/github-icon-primary.png'
-import emailIconPrimary from '../images/icons/email-icon-primary.png'
-import linkedinIconPrimary from '../images/icons/linkedin-icon-primary.png'
+import githubIconPrimary from '/images/icons/github-icon-primary.png'
+import emailIconPrimary from '/images/icons/email-icon-primary.png'
+import linkedinIconPrimary from '/images/icons/linkedin-icon-primary.png'
 
 export default function ContactCard() {
     const [isSubmitting, setIsSubmitting] = useState(false)

@@ -1,8 +1,8 @@
 import styles from '../styles/portfolio.module.css'
 import Header from '../components/header.jsx'
 import Footer from '../components/footer.jsx'
-import furryFriendsImg from '../images/furry-friends.png'
-import brainBoostImg from '../images/brain-boost.png'
+import furryFriendsImg from '/images/furry-friends.png'
+import brainBoostImg from '/images/brain-boost.png'
 
 export default function Home() {
     return (

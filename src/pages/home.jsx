@@ -3,10 +3,10 @@ import Header from '../components/header.jsx'
 import Footer from '../components/footer.jsx'
 import ContactCard from '../components/contactCard.jsx'
 import Project from '../components/project.jsx'
-import heroImg from '../images/hero-img.jpg'
-import skillsImg from '../images/skills.jpg'
-import furryFriendsImg from '../images/furry-friends.png'
-import brainBoostImg from '../images/brain-boost.png'
+import heroImg from '/images/hero-img.jpg'
+import skillsImg from '/images/skills.jpg'
+import furryFriendsImg from '/images/furry-friends.png'
+import brainBoostImg from '/images/brain-boost.png'
 import { Link } from "react-router-dom"
 
 export default function Home() {
