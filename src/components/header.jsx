@@ -31,12 +31,6 @@ export default function Header() {
                         <div className={`${styles.navBtnLines} ${styles.line3}`}></div>
                     </button>
                 </nav>
-                <div className={styles.hidden} id="nav-menu" onClick={toggleMenu}>
-                <Link to="/" className={styles.navLink}>Home</Link>
-                <Link to="/portfolio" className={styles.navLink}>Portfolio</Link>
-                <Link to="/about" className={styles.navLink}>About</Link>
-                <Link to="/contact" className={styles.navLink}>Contact</Link>
-                </div>
             </header>
             <div className={`${styles.navLinksContainer} ${menuOpen ? styles.open : ''}`} id="nav-menu" onClick={toggleMenu}>
                 <Link to="/" className={styles.navLink}>Home</Link>
